@@ -171,14 +171,18 @@ nav {
 /* -------------------
     BANNER
 ------------------------*/
+.home {
+    height: 100%;
+}
 .carousel {
-    height: 90vhs;
     color: white;
-    display: block;
+
+}
+.carousel-item img {
+    max-height: 100vh;
 }
 
 .carousel-caption {
-    /* font-size: 3em; */
     margin-bottom: 15%;
     margin-right: 50%;
     text-align: left;
@@ -312,7 +316,13 @@ nav {
     text-align: center;
     padding-top: 8%;
     padding-bottom: 8%;
+    display: block;
 }
+/* @media screen and (min-width: 1200px) {
+    .specs {
+        padding-top: 21%;
+    }
+} */
 
 .st {
     margin-bottom: 7%;
